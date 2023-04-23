@@ -17,3 +17,10 @@ The frontend.py file contains all the graphs and the results obtained from the d
 
 We have used LSTM model and BERT model to get fruitful results and Great Accuracy The Accuracy from LSTM Model is 87% and From BERT Model is 90%.
 
+To RUN The code -->
+Move the lstm.h5 and bert.h5 file to data folder as well as frontend.py and changes.py to data.
+The run the following command
+ cd data
+ streamlit run changes.py
+ streamlit run frontend.py
+ 
