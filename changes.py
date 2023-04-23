@@ -10,6 +10,9 @@ Original file is located at
 # from google.colab import drive
 # drive.mount('/content/drive')
 
+"""## Fake Review Detection System"""
+
+
 """## Importing Packages"""
 
 # Commented out IPython magic to ensure Python compatibility.
@@ -584,7 +587,9 @@ tokenizer = DistilBertTokenizerFast.from_pretrained('distilbert-base-uncased')
 bert_model1 = TFDistilBertForSequenceClassification.from_pretrained('distilbert-base-uncased',num_labels=2)
 
 bert_model1.load_weights('bert.h5')
-
+st.write('Accuracy score: 0.8918')
+st.write('F1 score: 0.912')
+st.write('ROC AUC score: 0.962')
 # query = ""
 query = st.text_input("Enter query here:" , key='bert_input')
 print('printing', query)
