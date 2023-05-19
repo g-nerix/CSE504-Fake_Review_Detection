@@ -1,26 +1,37 @@
 # CSE504-Fake_Review_Detection
-This project is a part of the Information Retrieval course at IIIT Delhi and focuses on detecting fake reviews on online platforms. Fake reviews can significantly impact the reputation of a product or service, and it is essential to identify and remove them to ensure fair competition and maintain the trust of users.
+This project is a part of the Information Retrieval course at IIIT Delhi and focuses on detecting fake reviews on online platforms. The objective is to identify and remove fake reviews to ensure fair competition and maintain user trust.
+To achieve fruitful results, we have utilized LSTM and BERT models, achieving an accuracy of 87% and 90%, respectively.
 
-In this project, we aim to develop a machine learning-based approach to identify fake reviews. We will use a dataset of reviews collected from online platforms and preprocess them to extract relevant features. These features will be used to train a classifier to distinguish between real and fake reviews.
+## Features
+ - Machine Learning Approach: Develop a machine learning-based solution to detect fake reviews using a dataset of reviews collected from online platforms.
 
-We will explore various machine learning algorithms and techniques to achieve the best performance in detecting fake reviews. The performance of the classifier will be evaluated using standard metrics such as precision, recall, and F1 score.
+ - Feature Extraction: Preprocess the reviews to extract relevant features that will be used to train a classifier.
 
-The project will be implemented using Python and various machine learning libraries such as Scikit-Learn and TensorFlow. The code will be hosted on Github, making it accessible and open to contributions from the community.
+ - Classifier Evaluation: Explore various machine learning algorithms and techniques to achieve optimal performance in detecting fake reviews. Evaluate the classifier using standard metrics such as precision, recall, and F1 score.
 
-Overall, this project aims to contribute to the development of techniques for identifying fake reviews and promoting fair competition in online platforms.
+ - Python and ML Libraries: Implement the project using Python and utilize machine learning libraries such as Scikit-Learn and TensorFlow.
 
-To setup and run the code move into the data folder by using the command cd data and then run the code using streamlit
-command --> streamlit run <File_Name>.py
-The UI is made using the library Streamlit. Which connects with the backend python code and displays the results accordingly.
+## Setup and Usage
+ 1. Move into the data folder using the command cd data.
 
-The frontend.py file contains all the graphs and the results obtained from the dataset using  SVM , Random Forest , Decision Trees , CNN Model and ANN Model.  
+ 2. Run the code using the Streamlit command: streamlit run <File_Name>.py. The UI is built with Streamlit, which connects with the backend Python code and displays the results.
 
-We have used LSTM model and BERT model to get fruitful results and Great Accuracy The Accuracy from LSTM Model is 87% and From BERT Model is 90%.
+ 3. The frontend.py file contains graphs and results obtained from the dataset using SVM, Random Forest, Decision Trees, CNN Model, and ANN Model.
 
-To RUN The code -->
-Move the lstm.h5 and bert.h5 file to data folder as well as frontend.py and changes.py to data.
-The run the following command
- cd data
- streamlit run changes.py
- streamlit run frontend.py
- 
+ 4. Move the lstm.h5 and bert.h5 files to the data folder, along with frontend.py and changes.py.
+
+### Run the following commands:
+    cd data
+    streamlit run changes.py
+    streamlit run frontend.py
+    
+## Contributions
+We welcome contributions from the community to enhance the fake review detection system. If you have any ideas, bug fixes, or feature enhancements, please feel free to submit a pull request.
+
+## License
+This project is licensed under the MIT License. You are free to use, modify, and distribute the code as per the terms of the license.
+
+## Contact
+If you have any questions or suggestions regarding the project, please contact us at shashank20119@iiitd.ac.in 
+
+Thank you for your interest in the Fake Review Detection project!
